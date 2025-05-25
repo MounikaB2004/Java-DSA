@@ -17,3 +17,9 @@ public class MaxElement{
         System.out.print(max);
     }
 }
+
+/*
+6
+4 6 2 8 1 0
+8
+*/
