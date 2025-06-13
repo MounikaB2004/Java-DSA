@@ -21,7 +21,7 @@ public class Rotate90Degrees {
         for(int i=0;i<n;i++){
             int left=0;
             int right=n-1;
-            while(left<=right){
+            while(left<right){
                 int temp=a[i][left];
                 a[i][left]=a[i][right];
                 a[i][right]=temp;
