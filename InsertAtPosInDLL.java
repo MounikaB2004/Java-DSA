@@ -66,7 +66,7 @@ class LL{
         if(temp==null) return;
         newn.next=temp.next;
         newn.prev=temp;
-        if(temp!=null) temp.next.prev=newn;
+        if(temp.next!=null) temp.next.prev=newn;
         temp.next=newn;
     }
 }
